@@ -1,0 +1,19 @@
+@model Mission06_Vance.Models.Collection
+
+@{
+    ViewData["Title"] = "Confirmation";
+}
+
+<h1>Movie Added Successfully</h1>
+
+<p>Thank you! The following movie has been added to the collection:</p>
+
+<ul>
+    <li><strong>Title:</strong> @Model.Title</li>
+    <li><strong>Category:</strong> @Model.Category?.CategoryName</li>
+    <li><strong>Director:</strong> @Model.Director</li>
+    <li><strong>Year:</strong> @Model.Year</li>
+    <li><strong>Rating:</strong> @Model.Rating</li>
+</ul>
+
+<a asp-controller="Home" asp-action="MovieCollection">Add Another Movie</a>
