@@ -1,17 +1,18 @@
-﻿@{
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<h1>The Joel Hilton Film Collection</h1>
+<div class="text-center py-4">
+    <h1 class="display-5 mb-3">The Joel Hilton Film Collection</h1>
 
-<div>
-    <p>Get To Know Joel</p>
-    <img src="/img/joelhilton.jpg" height = "500"/>
-    
-</div>
+    <img src="/img/joelhilton.jpg" height="400" alt="Joel Hilton" class="rounded shadow mb-4" />
 
-<br />
-
-<div>
-    <a asp-controller="Home" asp-action="MovieCollection">Fill Out The Movie Collection</a>
+    <div class="d-flex justify-content-center gap-3 mt-3">
+        <a asp-controller="Home" asp-action="MovieCollection" class="btn btn-primary btn-lg">
+            View Movie Collection
+        </a>
+        <a asp-controller="Home" asp-action="GetToKnowJoel" class="btn btn-outline-secondary btn-lg">
+            Get To Know Joel
+        </a>
+    </div>
 </div>

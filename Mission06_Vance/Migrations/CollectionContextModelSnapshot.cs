@@ -77,11 +77,13 @@ namespace Mission06_Vance.Migrations
                     b.Property<int>("CategoryID")
                         .HasColumnType("INTEGER");
 
+                    b.Property<bool>("CopiedToPlex")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Director")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<bool?>("Edited")
+                    b.Property<bool>("Edited")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("LentTo")
@@ -92,7 +94,6 @@ namespace Mission06_Vance.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Rating")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Title")

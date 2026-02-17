@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission06_Vance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d49e6702d1f1bd24ee3fa9f8498b516230ae87e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission06_Vance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission06_Vance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
